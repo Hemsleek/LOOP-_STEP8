@@ -4,7 +4,7 @@
 }
 
 :root {
-    font-size: 18px; 
+    font-size: 16px; 
 }
 
 @media(min-width=768px) {
@@ -36,7 +36,7 @@ body {
 
 .container {
     width: 70vw;
-    height: 79vh;
+    height: 80.5vh;
     background-color: #fff;
     display: grid;
     grid-template-columns: 35.5% 1fr;
@@ -44,7 +44,7 @@ body {
 
 .img-container {
     height: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
     background: url('./img/background.jpg');
     background-repeat: no-repeat;
     background-size: contain;
